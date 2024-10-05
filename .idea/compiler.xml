@@ -10,12 +10,19 @@
         <module name="accounts (1)" />
         <module name="accounts" />
       </profile>
+      <profile name="Annotation profile for accounts" enabled="true">
+        <sourceOutputDir name="../../section2/accounts/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../section2/accounts/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="accounts (2)" />
+      </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="accounts" options="-parameters" />
       <module name="accounts (1)" options="-parameters" />
+      <module name="accounts (2)" options="-parameters" />
       <module name="loans" options="-parameters" />
     </option>
   </component>
