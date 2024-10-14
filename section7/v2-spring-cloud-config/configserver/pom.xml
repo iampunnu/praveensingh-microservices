@@ -82,7 +82,7 @@
 				<version>3.4.1</version>
 				<configuration>
 					<to>
-						<image>praveenkuliza/${project.artifactId}:s6</image>
+						<image>praveenkuliza/${project.artifactId}:s7</image>
 					</to>
 				</configuration>
 			</plugin>
